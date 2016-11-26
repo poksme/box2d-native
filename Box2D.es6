@@ -2,7 +2,7 @@
 import bindings from 'bindings';
 import {reduce} from 'lodash';
 
-let box2d = bindings('Box2D.node')
+let box2d = bindings({ version: '6.5.0', bindings: 'Box2D.node' })
   , regexp = new RegExp('^b2')
 ;
 
