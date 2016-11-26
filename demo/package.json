@@ -2,13 +2,13 @@
   "name": "box2d-native-demo",
   "main": "index.js",
   "engines": {
-    "node": "4.2.1"
+    "node": "6.5.0"
   },
   "dependencies": {
     "box2d-native": "file:..",
-    "electron-prebuilt": "^0.34.2"
+    "electron": "^1.4.8"
   },
   "scripts": {
-    "start": "node node_modules/.bin/electron ."
+    "start": "electron ."
   }
 }
